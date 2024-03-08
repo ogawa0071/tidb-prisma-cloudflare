@@ -8,19 +8,17 @@
     "start": "wrangler dev"
   },
   "dependencies": {
-    "@prisma/client": "^5.11.0-dev.46",
+    "@prisma/client": "early-access",
     "@tidbcloud/prisma-adapter": "^5.10.2",
     "@tidbcloud/serverless": "^0.1.0"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20240222.0",
-    "@types/node": "^20.11.25",
-    "prisma": "^5.11.0-dev.46",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.4.2",
+    "prisma": "early-access",
+    "typescript": "^5.0.4",
     "wrangler": "^3.0.0"
   },
   "prisma": {
-    "seed": "ts-node --transpile-only --compiler-options {\"module\":\"CommonJS\"} prisma/seed.ts"
+    "seed": "npx ts-node --transpile-only --compiler-options {\"module\":\"CommonJS\"} prisma/seed.ts"
   }
 }
