@@ -1,5 +1,5 @@
 // https://docs.pingcap.com/tidbcloud/serverless-driver-prisma-example
-// https://prismaio.notion.site/Prisma-Edge-Functions-Early-Access-062612545bbd436d9705b43f65655669
+// https://pris.ly/early-access/edge-functions
 
 import { connect } from "@tidbcloud/serverless";
 import { PrismaTiDBCloud } from "@tidbcloud/prisma-adapter";
