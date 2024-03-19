@@ -1,4 +1,4 @@
-# TiDB Serverless + Prisma (Edge Functions Early Access) + Cloudflare Workers
+# TiDB Serverless + Prisma (Edge Functions Preview) + Cloudflare Workers
 
 This repository showcases an example of integrating TiDB Serverless with Cloudflare Workers, leveraging the edge function deployment support provided by Prisma.
 
@@ -6,7 +6,7 @@ Despite the [documentation for TiDB Serverless](https://docs.pingcap.com/tidbclo
 
 Please note that this setup **does not use Prisma Accelerate** connection pool.
 
-For more details on Prisma Edge Functions Early Access, check out: https://pris.ly/early-access/edge-functions.
+For more details on Prisma Edge Functions Preview, check out: https://www.prisma.io/docs/orm/prisma-client/deployment/edge/overview
 
 ## Demo
 

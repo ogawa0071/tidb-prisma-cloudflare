@@ -1,5 +1,5 @@
 // https://docs.pingcap.com/tidbcloud/serverless-driver-prisma-example
-// https://pris.ly/early-access/edge-functions
+// https://www.prisma.io/docs/orm/prisma-client/deployment/edge/deploy-to-cloudflare
 
 import { connect } from "@tidbcloud/serverless";
 import { PrismaTiDBCloud } from "@tidbcloud/prisma-adapter";
